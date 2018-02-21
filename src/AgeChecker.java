@@ -8,15 +8,15 @@ public class AgeChecker {
         //jeżeli wiek <16 gimnazjum
         //<20 srednia//uczelnia
 
-        Scanner agescanner = new Scanner(System.in); // alt+enter
+        Scanner scanner = new Scanner(System.in); // alt+enter
         System.out.println("Podaj wiek mlodziku");
-        int age = agescanner.nextInt();
+        int age = scanner.nextInt();
 
         if (age < 6 ) {
             System.out.println("powinienes isć do przedszk");
         }else if (age > 12 ) {
             System.out.println("powinienes isc do podstawówki");
-        }else if ((age> 20){
+        }else if ((age> 20)){
             System.out.println("gimnazjum");
         }
         if (age >= 20 && age <30){         //oba warunki muszą byc spełnione
