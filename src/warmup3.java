@@ -25,7 +25,7 @@ public class warmup3 {
             //sumowanie
             while (value != 0){
                 int digit = value % 10;
-                sum += digit
+                sum += digit;
                 value /= 10;
 
             }
